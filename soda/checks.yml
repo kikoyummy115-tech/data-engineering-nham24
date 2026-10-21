@@ -1,0 +1,92 @@
+# soda/checks.yml
+
+# --------------------------------------------------
+# Checks for Customers Table
+# --------------------------------------------------
+checks for customers:
+  - row_count > 0:
+      name: Customers table must not be empty
+
+  - missing_count(customer_id) = 0:
+      name: Every customer must have a customer_id
+
+  - duplicate_count(customer_id) = 0:
+      name: Customer IDs must be unique
+
+  - missing_count(phone_number) = 0:
+      name: Every customer must have a phone number
+
+  - duplicate_count(phone_number) = 0:
+      name: Customer phone numbers must be unique
+
+  - invalid_count(email) = 0:
+      valid format: email
+      name: Customer email addresses must be in valid format
+
+  - invalid_count(preferred_currency) = 0:
+      valid values: ["USD", "KHR"]
+      name: Currency must be either USD or KHR
+
+  - invalid_count(loyalty_tier) = 0:
+      valid values: ["Bronze", "Silver", "Gold", "Platinum"]
+      name: Loyalty tier must be a recognized level
+
+  - min(points_balance) >= 0:
+      name: Loyalty points balance cannot be negative
+
+  - min(lifetime_orders_count) >= 0:
+      name: Lifetime orders count cannot be negative
+
+  - missing_count(processed_at) = 0:
+      name: Audit processed_at timestamp must exist
+
+# --------------------------------------------------
+# Checks for Customer Addresses Table
+# --------------------------------------------------
+checks for customer_addresses:
+  - row_count > 0:
+      name: Addresses table must not be empty
+
+  - missing_count(address_id) = 0:
+      name: Every address record must have an ID
+
+  - duplicate_count(address_id) = 0:
+      name: Address IDs must be unique
+
+  - missing_count(customer_id) = 0:
+      name: Address must belong to a customer_id
+
+  # Cambodia latitude boundaries approx: 10.0 to 15.0, longitude: 102.0 to 108.0
+  - invalid_count(latitude) = 0:
+      valid min: 10.0
+      valid max: 15.0
+      name: Latitude coordinates must fall within Cambodia bounds
+
+  - invalid_count(longitude) = 0:
+      valid min: 102.0
+      valid max: 108.0
+      name: Longitude coordinates must fall within Cambodia bounds
+
+  - missing_count(khan) = 0:
+      name: Delivery address must specify a Khan
+
+  - missing_count(sangkat) = 0:
+      name: Delivery address must specify a Sangkat
+
+# --------------------------------------------------
+# Checks for Customer Payment Methods Table
+# --------------------------------------------------
+checks for customer_payment_methods:
+  - row_count > 0:
+      name: Payment methods table must not be empty
+
+  - missing_count(payment_method_id) = 0:
+      name: Every payment method must have an ID
+
+  - duplicate_count(payment_method_id) = 0:
+      name: Payment method IDs must be unique
+
+  - invalid_count(payment_type) = 0:
+      valid values:
+        ["KHQR_DIRECT", "CASH_ON_DELIVERY", "CREDIT_CARD", "DEBIT_CARD"]
+      name: Payment type must be a valid channel

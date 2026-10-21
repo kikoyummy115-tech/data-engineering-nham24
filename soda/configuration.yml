@@ -1,0 +1,9 @@
+# soda/configuration.yml
+data_source nham24_warehouse:
+  type: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: na123
+  database: datawarehouse
+  schema: public

@@ -1,0 +1,6180 @@
+[
+  {
+    "customer_id": "f118c4ca-8065-43e3-9262-e4b71354a4aa",
+    "identity": {
+      "phone": "+85586933168",
+      "name": "Sophea Khun",
+      "email": "sophea.khun_92@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/f118c4ca.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0001_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5766184,
+          "longitude": 104.8944548
+        },
+        "street": "Street 271, Building 127",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0001_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 13.3539997,
+          "longitude": 103.8519112
+        },
+        "street": "Street 51, Building 149",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0001_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••1234",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 986,
+      "lifetime_orders_count": 58,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-11T00:15:00Z"
+    }
+  },
+  {
+    "customer_id": "5311afb0-1190-4505-89c7-08fabe354b0f",
+    "identity": {
+      "phone": "+85596124097",
+      "name": "Sreypov Lim",
+      "email": "sreypov.lim_11@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/5311afb0.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0002_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3518585,
+          "longitude": 103.8634894
+        },
+        "street": "Street 178, Building 41",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0002_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7913",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 880,
+      "lifetime_orders_count": 40,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-17T00:46:00Z"
+    }
+  },
+  {
+    "customer_id": "f089dad5-12d6-4183-9a0a-9dfe20b871ed",
+    "identity": {
+      "phone": "+85561779358",
+      "name": "Chann Mao",
+      "email": "chann.mao_31@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/f089dad5.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0003_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5941672,
+          "longitude": 104.9418279
+        },
+        "street": "Street 2004, Building 58",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0003_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••1399",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0003_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1440,
+      "lifetime_orders_count": 96,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-14T06:19:00Z"
+    }
+  },
+  {
+    "customer_id": "b7401c68-a9c4-46b2-8444-9d440c61bda3",
+    "identity": {
+      "phone": "+85512415166",
+      "name": "Makara Chan",
+      "email": "makara.chan_76@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/b7401c68.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0004_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5261214,
+          "longitude": 104.9242679
+        },
+        "street": "Street 2004, Building 32",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0004_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5512636,
+          "longitude": 104.9152308
+        },
+        "street": "Street 63, Building 120",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0004_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2688",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0004_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1040,
+      "lifetime_orders_count": 65,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-15T10:44:00Z"
+    }
+  },
+  {
+    "customer_id": "c07e3f0d-aebd-463d-bd19-f6d276b458cb",
+    "identity": {
+      "phone": "+85596601896",
+      "name": "Phalla Ung",
+      "email": "phalla.ung_80@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/c07e3f0d.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["halal_only", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0005_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5427555,
+          "longitude": 104.9172181
+        },
+        "street": "Street 2004, Building 53",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0005_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7969",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 120,
+      "lifetime_orders_count": 5,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-30T00:53:00Z"
+    }
+  },
+  {
+    "customer_id": "98d1bf43-3424-4d07-8e05-5e7a7820258c",
+    "identity": {
+      "phone": "+85517487092",
+      "name": "Thyda Lim",
+      "email": "thyda.lim_19@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/98d1bf43.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0006_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5882598,
+          "longitude": 104.9431035
+        },
+        "street": "Street 310, Building 108",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0006_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.56878,
+          "longitude": 104.9207456
+        },
+        "street": "Street 2004, Building 104",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0006_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••5006",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 200,
+      "lifetime_orders_count": 8,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-13T16:08:00Z"
+    }
+  },
+  {
+    "customer_id": "aef16456-09f0-4e97-938a-1d9c72da7be0",
+    "identity": {
+      "phone": "+85517912537",
+      "name": "Marc Dupont",
+      "email": "marc.dupont_86@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/aef16456.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0007_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5487957,
+          "longitude": 104.923707
+        },
+        "street": "Street 271, Building 104",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0007_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••5248",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 456,
+      "lifetime_orders_count": 19,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-27T11:23:00Z"
+    }
+  },
+  {
+    "customer_id": "8d600ba6-c1a7-4793-97b5-ffdb340f5232",
+    "identity": {
+      "phone": "+85561638708",
+      "name": "Borey Kim",
+      "email": "borey.kim_35@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/8d600ba6.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0008_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5519499,
+          "longitude": 104.9270096
+        },
+        "street": "Street 310, Building 4",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0008_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••3158",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1349,
+      "lifetime_orders_count": 71,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-06T10:58:00Z"
+    }
+  },
+  {
+    "customer_id": "81a7a815-ed6b-43ee-8a36-8cd168dbe90c",
+    "identity": {
+      "phone": "+85512381038",
+      "name": "Monita Chhorn",
+      "email": "monita.chhorn_35@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/81a7a815.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0009_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5926816,
+          "longitude": 104.938134
+        },
+        "street": "Street 2004, Building 127",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0009_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8296",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0009_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 5700,
+      "lifetime_orders_count": 300,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-24T09:32:00Z"
+    }
+  },
+  {
+    "customer_id": "57b4d684-d3f1-4c13-ae4f-da6de298bbeb",
+    "identity": {
+      "phone": "+85596565064",
+      "name": "David Miller",
+      "email": "david.miller_27@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/57b4d684.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0010_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5396017,
+          "longitude": 104.9126804
+        },
+        "street": "Street 271, Building 62",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0010_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••8289",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 187,
+      "lifetime_orders_count": 11,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-23T09:26:00Z"
+    }
+  },
+  {
+    "customer_id": "9e051bd4-237b-4f3c-bf72-d0e00866ea0a",
+    "identity": {
+      "phone": "+85598693475",
+      "name": "Makara Chea",
+      "email": "makara.chea_18@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/9e051bd4.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0011_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5714927,
+          "longitude": 104.9185107
+        },
+        "street": "Street 310, Building 40",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0011_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2693",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 440,
+      "lifetime_orders_count": 20,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-07T15:12:00Z"
+    }
+  },
+  {
+    "customer_id": "8a760474-509b-4549-b781-926a8f1db6f2",
+    "identity": {
+      "phone": "+85598491561",
+      "name": "Monita Pich",
+      "email": "monita.pich_14@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/8a760474.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0012_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5868717,
+          "longitude": 104.9399884
+        },
+        "street": "Street 178, Building 22",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0012_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••4227",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 396,
+      "lifetime_orders_count": 18,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-09T09:40:00Z"
+    }
+  },
+  {
+    "customer_id": "73956a9a-9a4c-436f-8f32-a32dc4d1ab3e",
+    "identity": {
+      "phone": "+85570711065",
+      "name": "Monita Chea",
+      "email": "monita.chea_15@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/73956a9a.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0013_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5489133,
+          "longitude": 104.9369709
+        },
+        "street": "Street 2004, Building 30",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0013_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5470986,
+          "longitude": 104.9393254
+        },
+        "street": "Street 2004, Building 131",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0013_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••8702",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 46,
+      "lifetime_orders_count": 2,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-12T09:10:00Z"
+    }
+  },
+  {
+    "customer_id": "91756c89-cc66-42cd-9b43-03a61959dabc",
+    "identity": {
+      "phone": "+85570574434",
+      "name": "Marc Dupont",
+      "email": "marc.dupont_57@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/91756c89.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0014_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3460928,
+          "longitude": 103.859819
+        },
+        "street": "Street 271, Building 14",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0014_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5677563,
+          "longitude": 104.9176143
+        },
+        "street": "Street 271, Building 108",
+        "sangkat": "Phsar Thmey 1",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0014_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••3679",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 240,
+      "lifetime_orders_count": 15,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-11T19:38:00Z"
+    }
+  },
+  {
+    "customer_id": "ecd357ac-96dd-493a-8c76-ba6229e68080",
+    "identity": {
+      "phone": "+85570166260",
+      "name": "Piseth Khun",
+      "email": "piseth.khun_81@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ecd357ac.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0015_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5884485,
+          "longitude": 104.9383587
+        },
+        "street": "Street 271, Building 124",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0015_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••4589",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0015_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 195,
+      "lifetime_orders_count": 13,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-12T05:19:00Z"
+    }
+  },
+  {
+    "customer_id": "44b0f649-5dbf-434a-b889-127b9d869f7f",
+    "identity": {
+      "phone": "+85586756311",
+      "name": "Sreypov Tep",
+      "email": "sreypov.tep_40@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/44b0f649.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0016_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5542214,
+          "longitude": 104.920554
+        },
+        "street": "Street 2004, Building 129",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0016_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5708232,
+          "longitude": 104.9221597
+        },
+        "street": "Street 2004, Building 148",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0016_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••9948",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0016_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 400,
+      "lifetime_orders_count": 20,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-15T17:53:00Z"
+    }
+  },
+  {
+    "customer_id": "6832357c-a318-4165-9b4f-2ad0a5eb6fac",
+    "identity": {
+      "phone": "+85512305585",
+      "name": "Monita Lim",
+      "email": "monita.lim_39@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/6832357c.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0017_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5479184,
+          "longitude": 104.9262242
+        },
+        "street": "Street 51, Building 139",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0017_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••2660",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 50,
+      "lifetime_orders_count": 2,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-24T00:23:00Z"
+    }
+  },
+  {
+    "customer_id": "8a17feff-4e7d-4dc1-ab88-4b2b9d21213c",
+    "identity": {
+      "phone": "+85598591809",
+      "name": "Thyda Sok",
+      "email": "thyda.sok_40@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/8a17feff.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0018_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3476684,
+          "longitude": 103.8595391
+        },
+        "street": "Street 63, Building 27",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0018_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••4407",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0018_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 306,
+      "lifetime_orders_count": 17,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-01T07:40:00Z"
+    }
+  },
+  {
+    "customer_id": "ca936724-16ac-4810-b186-4d45fce3f004",
+    "identity": {
+      "phone": "+85561531137",
+      "name": "Marc Dupont",
+      "email": "marc.dupont_12@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ca936724.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0019_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5914123,
+          "longitude": 104.9342641
+        },
+        "street": "Street 51, Building 116",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0019_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••5870",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0019_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 15,
+      "lifetime_orders_count": 1,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-23T22:01:00Z"
+    }
+  },
+  {
+    "customer_id": "60e678c8-9f1c-4770-9a48-fed34e51c45c",
+    "identity": {
+      "phone": "+85570278456",
+      "name": "Piseth Sok",
+      "email": "piseth.sok_34@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/60e678c8.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0020_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5212823,
+          "longitude": 104.9211902
+        },
+        "street": "Street 2004, Building 70",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0020_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••8155",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0020_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 324,
+      "lifetime_orders_count": 18,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-25T04:32:00Z"
+    }
+  },
+  {
+    "customer_id": "6825a53a-5520-4344-ab67-025c2e1f9917",
+    "identity": {
+      "phone": "+85598384034",
+      "name": "Chhaya Khun",
+      "email": "chhaya.khun_55@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/6825a53a.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0021_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.523155,
+          "longitude": 104.9255264
+        },
+        "street": "Street 51, Building 15",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0021_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••2160",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0021_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1200,
+      "lifetime_orders_count": 75,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-11T18:40:00Z"
+    }
+  },
+  {
+    "customer_id": "d5f31e6a-ae17-49c9-9b04-21ea5ba18f39",
+    "identity": {
+      "phone": "+85517491463",
+      "name": "Veasna Chan",
+      "email": "veasna.chan_94@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d5f31e6a.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0022_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5439976,
+          "longitude": 104.9080473
+        },
+        "street": "Street 271, Building 6",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0022_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••2493",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0022_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Platinum",
+      "points_balance": 11538,
+      "lifetime_orders_count": 641,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-27T22:33:00Z"
+    }
+  },
+  {
+    "customer_id": "726f3c4b-c076-4d6e-9507-51471726cff3",
+    "identity": {
+      "phone": "+85598862031",
+      "name": "Sothea Ros",
+      "email": "sothea.ros_47@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/726f3c4b.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0023_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5435766,
+          "longitude": 104.9125764
+        },
+        "street": "Street 310, Building 127",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0023_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7644",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0023_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 16,
+      "lifetime_orders_count": 1,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-28T13:35:00Z"
+    }
+  },
+  {
+    "customer_id": "09db8889-9940-447b-b452-4c3793458a30",
+    "identity": {
+      "phone": "+85586743706",
+      "name": "Chenda Ouk",
+      "email": "chenda.ouk_93@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/09db8889.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0024_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5228206,
+          "longitude": 104.9167237
+        },
+        "street": "Street 51, Building 62",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      },
+      {
+        "address_id": "addr_0024_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5440429,
+          "longitude": 104.9118856
+        },
+        "street": "Street 178, Building 20",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0024_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••1187",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0024_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1260,
+      "lifetime_orders_count": 63,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-19T15:16:00Z"
+    }
+  },
+  {
+    "customer_id": "beefd7e9-5b25-4d61-a17e-593b722117ba",
+    "identity": {
+      "phone": "+85598236423",
+      "name": "Liam Smith",
+      "email": "liam.smith_91@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/beefd7e9.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0025_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5757633,
+          "longitude": 104.9029626
+        },
+        "street": "Street 2004, Building 122",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0025_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••2542",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0025_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 5428,
+      "lifetime_orders_count": 236,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-03T08:51:00Z"
+    }
+  },
+  {
+    "customer_id": "a9da6d22-af4c-41c4-94b0-c165485cb07c",
+    "identity": {
+      "phone": "+85561654762",
+      "name": "Vireak Tep",
+      "email": "vireak.tep_66@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/a9da6d22.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0026_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5472603,
+          "longitude": 104.9080332
+        },
+        "street": "Street 63, Building 143",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0026_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••1739",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0026_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 289,
+      "lifetime_orders_count": 17,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-09T02:06:00Z"
+    }
+  },
+  {
+    "customer_id": "3c07a7f3-17aa-463c-bd6b-305b355146f5",
+    "identity": {
+      "phone": "+85570519196",
+      "name": "Makara Pich",
+      "email": "makara.pich_62@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/3c07a7f3.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0027_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5762066,
+          "longitude": 104.9216954
+        },
+        "street": "Street 271, Building 87",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0027_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5650333,
+          "longitude": 104.9225231
+        },
+        "street": "Street 2004, Building 43",
+        "sangkat": "Phsar Thmey 1",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0027_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••6166",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 448,
+      "lifetime_orders_count": 28,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-22T13:32:00Z"
+    }
+  },
+  {
+    "customer_id": "b0f9509d-9bea-41bc-b8de-2760fe390991",
+    "identity": {
+      "phone": "+85598249688",
+      "name": "Neary Keo",
+      "email": "neary.keo_77@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/b0f9509d.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0028_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3462973,
+          "longitude": 103.8611123
+        },
+        "street": "Street 310, Building 89",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0028_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5210207,
+          "longitude": 104.9222107
+        },
+        "street": "Street 271, Building 106",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0028_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2336",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 153,
+      "lifetime_orders_count": 9,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-14T22:44:00Z"
+    }
+  },
+  {
+    "customer_id": "473c1795-41b0-42c3-8406-ff3380e2f98f",
+    "identity": {
+      "phone": "+85596662761",
+      "name": "Sophea Chea",
+      "email": "sophea.chea_96@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/473c1795.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0029_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5453925,
+          "longitude": 104.9093056
+        },
+        "street": "Street 2004, Building 90",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0029_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••7119",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 768,
+      "lifetime_orders_count": 32,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-17T02:05:00Z"
+    }
+  },
+  {
+    "customer_id": "e41273a7-6398-45e8-899b-5a0ebc6a1473",
+    "identity": {
+      "phone": "+85517631996",
+      "name": "Kosal Ros",
+      "email": "kosal.ros_90@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/e41273a7.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0030_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3491651,
+          "longitude": 103.8562354
+        },
+        "street": "Street 178, Building 25",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0030_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5798501,
+          "longitude": 104.8961306
+        },
+        "street": "Street 51, Building 109",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0030_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••7454",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 748,
+      "lifetime_orders_count": 34,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-21T04:05:00Z"
+    }
+  },
+  {
+    "customer_id": "5804d2d3-8347-4621-b3cd-47a807b660c1",
+    "identity": {
+      "phone": "+85512478783",
+      "name": "Chenda Heng",
+      "email": "chenda.heng_18@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/5804d2d3.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0031_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5414593,
+          "longitude": 104.9122622
+        },
+        "street": "Street 310, Building 127",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0031_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8933",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Platinum",
+      "points_balance": 13200,
+      "lifetime_orders_count": 550,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-08T16:05:00Z"
+    }
+  },
+  {
+    "customer_id": "3eb05d15-14ad-41cf-9275-7d2fcafa63be",
+    "identity": {
+      "phone": "+85570790719",
+      "name": "Emma Davis",
+      "email": "emma.davis_51@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/3eb05d15.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0032_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3534665,
+          "longitude": 103.8576442
+        },
+        "street": "Street 63, Building 112",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0032_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8545",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0032_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 171,
+      "lifetime_orders_count": 9,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-17T20:45:00Z"
+    }
+  },
+  {
+    "customer_id": "9308e301-1fd0-4f59-8276-396143687507",
+    "identity": {
+      "phone": "+85512266502",
+      "name": "Kolab Ung",
+      "email": "kolab.ung_26@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/9308e301.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0033_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3447115,
+          "longitude": 103.8599407
+        },
+        "street": "Street 2004, Building 66",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0033_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••5365",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 252,
+      "lifetime_orders_count": 14,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-04T00:56:00Z"
+    }
+  },
+  {
+    "customer_id": "e6da9e33-18ce-4a5c-aa2f-e8d592945ca4",
+    "identity": {
+      "phone": "+85512958781",
+      "name": "Vireak Chhorn",
+      "email": "vireak.chhorn_90@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/e6da9e33.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0034_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5907126,
+          "longitude": 104.9360748
+        },
+        "street": "Street 51, Building 139",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0034_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••6733",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0034_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1128,
+      "lifetime_orders_count": 47,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-21T13:47:00Z"
+    }
+  },
+  {
+    "customer_id": "1a91ef2a-6585-4ac0-b647-3335a209951b",
+    "identity": {
+      "phone": "+85596718405",
+      "name": "Bopha Ros",
+      "email": "bopha.ros_40@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/1a91ef2a.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0035_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5790839,
+          "longitude": 104.8681785
+        },
+        "street": "Street 310, Building 55",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0035_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••3932",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 100,
+      "lifetime_orders_count": 5,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-01T18:45:00Z"
+    }
+  },
+  {
+    "customer_id": "d34ba60a-b8e7-4afb-ba74-1cd8838285a0",
+    "identity": {
+      "phone": "+85570417833",
+      "name": "Chloe Martin",
+      "email": "chloe.martin_29@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d34ba60a.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0036_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5487848,
+          "longitude": 104.9321088
+        },
+        "street": "Street 51, Building 136",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0036_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••6713",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 46,
+      "lifetime_orders_count": 2,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-16T23:43:00Z"
+    }
+  },
+  {
+    "customer_id": "cda15b86-8bb3-42f8-9ee5-ba5e85cb55dc",
+    "identity": {
+      "phone": "+85512368945",
+      "name": "Dara Pich",
+      "email": "dara.pich_30@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/cda15b86.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0037_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3493821,
+          "longitude": 103.8599984
+        },
+        "street": "Street 271, Building 82",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0037_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.546946,
+          "longitude": 104.9151155
+        },
+        "street": "Street 2004, Building 110",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0037_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••4592",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0037_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 555,
+      "lifetime_orders_count": 37,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-10T17:30:00Z"
+    }
+  },
+  {
+    "customer_id": "5f85f5bf-92eb-47d1-985d-0da513a4eade",
+    "identity": {
+      "phone": "+85586697307",
+      "name": "Chloe Martin",
+      "email": "chloe.martin_83@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/5f85f5bf.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0038_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5493922,
+          "longitude": 104.922059
+        },
+        "street": "Street 51, Building 3",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0038_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••5956",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 160,
+      "lifetime_orders_count": 8,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-26T20:33:00Z"
+    }
+  },
+  {
+    "customer_id": "4128261a-a4d6-4b40-9b0e-e2bcdbb2d463",
+    "identity": {
+      "phone": "+85586320717",
+      "name": "Samnang Heng",
+      "email": "samnang.heng_64@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4128261a.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0039_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.543742,
+          "longitude": 104.9063182
+        },
+        "street": "Street 310, Building 113",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0039_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••8376",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0039_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 264,
+      "lifetime_orders_count": 12,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-21T07:00:00Z"
+    }
+  },
+  {
+    "customer_id": "0f5abdb1-229b-40a7-b0c5-850e505c0d13",
+    "identity": {
+      "phone": "+85598254455",
+      "name": "Chhaya Pich",
+      "email": "chhaya.pich_55@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/0f5abdb1.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0040_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5482303,
+          "longitude": 104.9052612
+        },
+        "street": "Street 51, Building 25",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0040_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5810227,
+          "longitude": 104.8944784
+        },
+        "street": "Street 2004, Building 114",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0040_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••4188",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0040_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Platinum",
+      "points_balance": 19660,
+      "lifetime_orders_count": 983,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-11T17:46:00Z"
+    }
+  },
+  {
+    "customer_id": "085fd37a-55b7-4cd7-88c6-865dc4c6a083",
+    "identity": {
+      "phone": "+85598503812",
+      "name": "Marc Dupont",
+      "email": "marc.dupont_19@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/085fd37a.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["no_pork", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0041_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5505292,
+          "longitude": 104.9207696
+        },
+        "street": "Street 310, Building 67",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0041_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5505957,
+          "longitude": 104.9308142
+        },
+        "street": "Street 310, Building 57",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0041_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••6416",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 2688,
+      "lifetime_orders_count": 128,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-15T02:47:00Z"
+    }
+  },
+  {
+    "customer_id": "4ba15c38-1a0a-40f6-bfd9-249a1e8327e3",
+    "identity": {
+      "phone": "+85512336532",
+      "name": "Makara Mao",
+      "email": "makara.mao_30@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4ba15c38.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0042_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5445548,
+          "longitude": 104.9095072
+        },
+        "street": "Street 271, Building 84",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0042_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 13.353845,
+          "longitude": 103.863716
+        },
+        "street": "Street 51, Building 22",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0042_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••4885",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0042_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 800,
+      "lifetime_orders_count": 50,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-12T02:53:00Z"
+    }
+  },
+  {
+    "customer_id": "8a3a4804-077a-433f-92b4-040d707194e6",
+    "identity": {
+      "phone": "+85596643914",
+      "name": "Chloe Martin",
+      "email": "chloe.martin_13@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/8a3a4804.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0043_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5690124,
+          "longitude": 104.9251899
+        },
+        "street": "Street 271, Building 26",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0043_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8445",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 375,
+      "lifetime_orders_count": 15,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-11T05:48:00Z"
+    }
+  },
+  {
+    "customer_id": "895463ae-dfac-4a88-9225-4409f6c6ec4f",
+    "identity": {
+      "phone": "+85586406222",
+      "name": "Kiri Tep",
+      "email": "kiri.tep_65@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/895463ae.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0044_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3554538,
+          "longitude": 103.8519761
+        },
+        "street": "Street 271, Building 23",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0044_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••2904",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0044_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 408,
+      "lifetime_orders_count": 17,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-18T19:59:00Z"
+    }
+  },
+  {
+    "customer_id": "ade57e69-e974-49b0-bbd6-dddbd124e322",
+    "identity": {
+      "phone": "+85512470247",
+      "name": "Sokha Chea",
+      "email": "sokha.chea_82@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ade57e69.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0045_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5457179,
+          "longitude": 104.9084152
+        },
+        "street": "Street 178, Building 73",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0045_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••5015",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1512,
+      "lifetime_orders_count": 84,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-21T01:48:00Z"
+    }
+  },
+  {
+    "customer_id": "476c0bfd-08d9-4cb0-a36c-9bc74c655777",
+    "identity": {
+      "phone": "+85596609172",
+      "name": "Monita Meas",
+      "email": "monita.meas_98@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/476c0bfd.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0046_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5499899,
+          "longitude": 104.9379731
+        },
+        "street": "Street 310, Building 49",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0046_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.547192,
+          "longitude": 104.906013
+        },
+        "street": "Street 178, Building 12",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0046_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••3733",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 304,
+      "lifetime_orders_count": 16,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-20T16:22:00Z"
+    }
+  },
+  {
+    "customer_id": "5df3ce34-9ce3-4f09-857c-cbdc726c3f9f",
+    "identity": {
+      "phone": "+85512386159",
+      "name": "Kolab Lim",
+      "email": "kolab.lim_67@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/5df3ce34.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["halal_only", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0047_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5469919,
+          "longitude": 104.9215872
+        },
+        "street": "Street 2004, Building 52",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0047_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••5102",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0047_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 544,
+      "lifetime_orders_count": 34,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-20T02:47:00Z"
+    }
+  },
+  {
+    "customer_id": "f3f5ba02-7886-4fc1-af13-8338e96c25a8",
+    "identity": {
+      "phone": "+85598836362",
+      "name": "Samnang Khun",
+      "email": "samnang.khun_49@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/f3f5ba02.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0048_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5726127,
+          "longitude": 104.9218776
+        },
+        "street": "Street 51, Building 69",
+        "sangkat": "Phsar Thmey 1",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0048_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••3059",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 300,
+      "lifetime_orders_count": 15,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-17T01:04:00Z"
+    }
+  },
+  {
+    "customer_id": "0e31f5dc-22fc-4ecc-95ed-44fcebac7f46",
+    "identity": {
+      "phone": "+85570326808",
+      "name": "Kolab Heng",
+      "email": "kolab.heng_39@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/0e31f5dc.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0049_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5784882,
+          "longitude": 104.8958693
+        },
+        "street": "Street 310, Building 44",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0049_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••3581",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0049_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 540,
+      "lifetime_orders_count": 30,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-18T08:41:00Z"
+    }
+  },
+  {
+    "customer_id": "2d211e33-95f7-4902-9ec8-15ac2eb8305a",
+    "identity": {
+      "phone": "+85517304187",
+      "name": "Piseth Ros",
+      "email": "piseth.ros_64@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/2d211e33.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0050_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5887279,
+          "longitude": 104.9379461
+        },
+        "street": "Street 63, Building 48",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0050_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••7422",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0050_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 3232,
+      "lifetime_orders_count": 202,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-13T19:20:00Z"
+    }
+  },
+  {
+    "customer_id": "e233267f-7eda-492c-b1b3-94d5752c1e25",
+    "identity": {
+      "phone": "+85512300558",
+      "name": "Bopha Heng",
+      "email": "bopha.heng_19@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/e233267f.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0051_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5782504,
+          "longitude": 104.8662331
+        },
+        "street": "Street 2004, Building 3",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0051_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••4234",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1368,
+      "lifetime_orders_count": 57,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-18T02:00:00Z"
+    }
+  },
+  {
+    "customer_id": "fc1faf78-0255-493e-97a9-bd462ab64bd0",
+    "identity": {
+      "phone": "+85512658084",
+      "name": "Makara Keo",
+      "email": "makara.keo_88@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/fc1faf78.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0052_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5695161,
+          "longitude": 104.9215142
+        },
+        "street": "Street 51, Building 95",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      },
+      {
+        "address_id": "addr_0052_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5463311,
+          "longitude": 104.9064795
+        },
+        "street": "Street 178, Building 147",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0052_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••1389",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0052_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 840,
+      "lifetime_orders_count": 56,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-14T00:29:00Z"
+    }
+  },
+  {
+    "customer_id": "dbf90d41-886f-47d3-9cd8-a1ecf06ef899",
+    "identity": {
+      "phone": "+85561258961",
+      "name": "Piseth Tep",
+      "email": "piseth.tep_10@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/dbf90d41.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0053_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3570947,
+          "longitude": 103.8566846
+        },
+        "street": "Street 51, Building 33",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0053_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••3003",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1300,
+      "lifetime_orders_count": 52,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-05T17:34:00Z"
+    }
+  },
+  {
+    "customer_id": "ca389218-118c-4359-ac6e-d3aaed83a6da",
+    "identity": {
+      "phone": "+85596561227",
+      "name": "Kosal Lim",
+      "email": "kosal.lim_79@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ca389218.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0054_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5534342,
+          "longitude": 104.9248397
+        },
+        "street": "Street 51, Building 150",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0054_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••1364",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0054_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 264,
+      "lifetime_orders_count": 12,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-28T02:34:00Z"
+    }
+  },
+  {
+    "customer_id": "b1b759f4-cb7a-4876-ab91-2a7eb3e8f427",
+    "identity": {
+      "phone": "+85570618857",
+      "name": "Liam Smith",
+      "email": "liam.smith_40@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/b1b759f4.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0055_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.578186,
+          "longitude": 104.9208674
+        },
+        "street": "Street 310, Building 109",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0055_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7141",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 322,
+      "lifetime_orders_count": 14,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-07T15:12:00Z"
+    }
+  },
+  {
+    "customer_id": "33449ce2-2270-4580-98e2-215950c2d8df",
+    "identity": {
+      "phone": "+85598178600",
+      "name": "Kosal Ung",
+      "email": "kosal.ung_47@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/33449ce2.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0056_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5878877,
+          "longitude": 104.9388516
+        },
+        "street": "Street 51, Building 99",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0056_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••3319",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0056_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 846,
+      "lifetime_orders_count": 47,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-19T17:27:00Z"
+    }
+  },
+  {
+    "customer_id": "7f1184f2-9ac8-4780-8011-3a6f0109a901",
+    "identity": {
+      "phone": "+85517471958",
+      "name": "Dara Ung",
+      "email": "dara.ung_68@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/7f1184f2.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0057_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5429505,
+          "longitude": 104.9171519
+        },
+        "street": "Street 51, Building 37",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0057_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••6504",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0057_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 161,
+      "lifetime_orders_count": 7,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-11T07:00:00Z"
+    }
+  },
+  {
+    "customer_id": "24435572-2e9f-4e5d-9a9c-811c11d4729d",
+    "identity": {
+      "phone": "+85570784368",
+      "name": "Sreypov Mao",
+      "email": "sreypov.mao_38@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/24435572.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0058_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5960996,
+          "longitude": 104.933544
+        },
+        "street": "Street 51, Building 19",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0058_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5490555,
+          "longitude": 104.9317893
+        },
+        "street": "Street 63, Building 76",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0058_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••8948",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 360,
+      "lifetime_orders_count": 18,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-10T17:56:00Z"
+    }
+  },
+  {
+    "customer_id": "ac59335b-b93f-41d7-9637-837ef580d064",
+    "identity": {
+      "phone": "+85598347832",
+      "name": "Chhaya Lim",
+      "email": "chhaya.lim_67@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ac59335b.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["no_pork", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0059_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5771484,
+          "longitude": 104.9217586
+        },
+        "street": "Street 178, Building 14",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0059_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••4528",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0059_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 289,
+      "lifetime_orders_count": 17,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-09T01:08:00Z"
+    }
+  },
+  {
+    "customer_id": "db6ced31-8f40-4156-b506-48757f9142c4",
+    "identity": {
+      "phone": "+85561115468",
+      "name": "Liam Smith",
+      "email": "liam.smith_80@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/db6ced31.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0060_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5684025,
+          "longitude": 104.9199382
+        },
+        "street": "Street 310, Building 121",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0060_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5899762,
+          "longitude": 104.9432116
+        },
+        "street": "Street 178, Building 8",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0060_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••9510",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0060_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 160,
+      "lifetime_orders_count": 8,
+      "active_coupons": [
+        {
+          "code": "DISCOUNT2USD",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-17T10:56:00Z"
+    }
+  },
+  {
+    "customer_id": "435dc668-19ff-4300-a808-983c2108d0f7",
+    "identity": {
+      "phone": "+85517461006",
+      "name": "Emma Davis",
+      "email": "emma.davis_19@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/435dc668.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0061_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5738786,
+          "longitude": 104.8964162
+        },
+        "street": "Street 51, Building 106",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0061_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.539039,
+          "longitude": 104.9063625
+        },
+        "street": "Street 271, Building 22",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0061_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••4096",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0061_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 240,
+      "lifetime_orders_count": 10,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-16T05:40:00Z"
+    }
+  },
+  {
+    "customer_id": "70752fdf-f474-485c-b1e9-16193874c1d5",
+    "identity": {
+      "phone": "+85586567469",
+      "name": "Kosal Lim",
+      "email": "kosal.lim_28@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/70752fdf.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0062_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5738884,
+          "longitude": 104.8710285
+        },
+        "street": "Street 178, Building 129",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0062_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••5516",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0062_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 90,
+      "lifetime_orders_count": 6,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-26T12:36:00Z"
+    }
+  },
+  {
+    "customer_id": "b0fe40cd-5685-4698-aaa0-ceed822fc2d6",
+    "identity": {
+      "phone": "+85512387241",
+      "name": "Kosal Keo",
+      "email": "kosal.keo_59@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/b0fe40cd.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0063_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5400639,
+          "longitude": 104.9085387
+        },
+        "street": "Street 2004, Building 86",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0063_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••2936",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0063_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1254,
+      "lifetime_orders_count": 66,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-20T19:48:00Z"
+    }
+  },
+  {
+    "customer_id": "4276a435-7a86-466e-a3ac-e5a5968630ac",
+    "identity": {
+      "phone": "+85586829242",
+      "name": "Chann Lim",
+      "email": "chann.lim_92@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4276a435.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0064_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.545353,
+          "longitude": 104.9338983
+        },
+        "street": "Street 178, Building 35",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0064_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5892399,
+          "longitude": 104.9369731
+        },
+        "street": "Street 310, Building 33",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0064_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••1305",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0064_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 234,
+      "lifetime_orders_count": 13,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-28T17:36:00Z"
+    }
+  },
+  {
+    "customer_id": "22cf1a70-06a0-4cd1-8490-7f85df1e756a",
+    "identity": {
+      "phone": "+85512929848",
+      "name": "Sreypov Khun",
+      "email": "sreypov.khun_86@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/22cf1a70.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0065_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5741338,
+          "longitude": 104.8986749
+        },
+        "street": "Street 178, Building 106",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0065_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8496",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 300,
+      "lifetime_orders_count": 15,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-13T20:31:00Z"
+    }
+  },
+  {
+    "customer_id": "3a11a404-fb2e-4297-81dd-6b7ba617a4ee",
+    "identity": {
+      "phone": "+85596274026",
+      "name": "Neary Ouk",
+      "email": "neary.ouk_40@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/3a11a404.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0066_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5471577,
+          "longitude": 104.927843
+        },
+        "street": "Street 2004, Building 108",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0066_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5197676,
+          "longitude": 104.9194333
+        },
+        "street": "Street 63, Building 119",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0066_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••9661",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 4767,
+      "lifetime_orders_count": 227,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-07T22:05:00Z"
+    }
+  },
+  {
+    "customer_id": "66b9f222-86b8-4a35-a3b1-1c1938822719",
+    "identity": {
+      "phone": "+85517259342",
+      "name": "Sokha Ouk",
+      "email": "sokha.ouk_66@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/66b9f222.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0067_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5937848,
+          "longitude": 104.9338445
+        },
+        "street": "Street 271, Building 76",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      },
+      {
+        "address_id": "addr_0067_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5454508,
+          "longitude": 104.9166887
+        },
+        "street": "Street 271, Building 96",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0067_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••1037",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0067_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 765,
+      "lifetime_orders_count": 45,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-19T11:33:00Z"
+    }
+  },
+  {
+    "customer_id": "15237b41-6574-4f1b-945f-e85b1c5342ff",
+    "identity": {
+      "phone": "+85586573878",
+      "name": "Sreypov Ung",
+      "email": "sreypov.ung_17@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/15237b41.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0068_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5214499,
+          "longitude": 104.9189386
+        },
+        "street": "Street 310, Building 126",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0068_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••9834",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0068_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1377,
+      "lifetime_orders_count": 81,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-16T00:36:00Z"
+    }
+  },
+  {
+    "customer_id": "b3d9599d-76b9-4d49-94f5-cab6d66e58d2",
+    "identity": {
+      "phone": "+85586578946",
+      "name": "Liam Smith",
+      "email": "liam.smith_13@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/b3d9599d.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0069_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3530596,
+          "longitude": 103.8597589
+        },
+        "street": "Street 310, Building 98",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0069_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••1828",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0069_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 5780,
+      "lifetime_orders_count": 289,
+      "active_coupons": [
+        {
+          "code": "DISCOUNT2USD",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-07T12:19:00Z"
+    }
+  },
+  {
+    "customer_id": "e1b0a80c-ec10-470c-a427-dd2da1e0b8e5",
+    "identity": {
+      "phone": "+85586925857",
+      "name": "Dara Kim",
+      "email": "dara.kim_77@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/e1b0a80c.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0070_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5283022,
+          "longitude": 104.9240337
+        },
+        "street": "Street 51, Building 135",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0070_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2664",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1700,
+      "lifetime_orders_count": 100,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-19T07:35:00Z"
+    }
+  },
+  {
+    "customer_id": "a073b118-0972-4dce-9a67-88ed64c484df",
+    "identity": {
+      "phone": "+85561725995",
+      "name": "Monita Tep",
+      "email": "monita.tep_77@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/a073b118.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0071_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3533576,
+          "longitude": 103.8520897
+        },
+        "street": "Street 310, Building 64",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0071_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••2493",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Platinum",
+      "points_balance": 15862,
+      "lifetime_orders_count": 721,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-14T22:39:00Z"
+    }
+  },
+  {
+    "customer_id": "4922085a-945b-4acd-b8fa-1d56859e8a44",
+    "identity": {
+      "phone": "+85517658941",
+      "name": "Chann Keo",
+      "email": "chann.keo_85@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4922085a.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0072_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.55149,
+          "longitude": 104.9258443
+        },
+        "street": "Street 63, Building 111",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0072_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5781383,
+          "longitude": 104.8667226
+        },
+        "street": "Street 271, Building 25",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0072_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••7935",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0072_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1296,
+      "lifetime_orders_count": 54,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-21T23:37:00Z"
+    }
+  },
+  {
+    "customer_id": "d9675f25-2848-43fd-b7e9-488de8d6d415",
+    "identity": {
+      "phone": "+85598363775",
+      "name": "Chhaya Khun",
+      "email": "chhaya.khun_61@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d9675f25.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0073_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5951865,
+          "longitude": 104.9392235
+        },
+        "street": "Street 51, Building 14",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0073_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5929461,
+          "longitude": 104.9370427
+        },
+        "street": "Street 2004, Building 148",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0073_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••4429",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0073_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1166,
+      "lifetime_orders_count": 53,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-16T00:07:00Z"
+    }
+  },
+  {
+    "customer_id": "ab208028-f5ac-483e-bc70-15eb1a907eab",
+    "identity": {
+      "phone": "+85517815187",
+      "name": "Vireak Khun",
+      "email": "vireak.khun_25@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ab208028.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0074_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5734569,
+          "longitude": 104.8978611
+        },
+        "street": "Street 51, Building 31",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0074_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.573076,
+          "longitude": 104.9241257
+        },
+        "street": "Street 178, Building 128",
+        "sangkat": "Phsar Thmey 1",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0074_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••8785",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 160,
+      "lifetime_orders_count": 8,
+      "active_coupons": [
+        {
+          "code": "DISCOUNT2USD",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-24T17:19:00Z"
+    }
+  },
+  {
+    "customer_id": "d7b69bd6-efd0-45b3-b5dc-b0cfba31ed17",
+    "identity": {
+      "phone": "+85598656547",
+      "name": "Monita Heng",
+      "email": "monita.heng_86@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d7b69bd6.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0075_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5904734,
+          "longitude": 104.9368192
+        },
+        "street": "Street 310, Building 88",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0075_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••3684",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1125,
+      "lifetime_orders_count": 45,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-08T10:28:00Z"
+    }
+  },
+  {
+    "customer_id": "f371efbe-ed59-4ed7-aa51-7be1a073333e",
+    "identity": {
+      "phone": "+85598494621",
+      "name": "Rithy Pich",
+      "email": "rithy.pich_14@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/f371efbe.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0076_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5428341,
+          "longitude": 104.9123313
+        },
+        "street": "Street 178, Building 14",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0076_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••9434",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 3984,
+      "lifetime_orders_count": 249,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-11T13:41:00Z"
+    }
+  },
+  {
+    "customer_id": "088697d3-eb53-4f30-88b3-419fb17069b6",
+    "identity": {
+      "phone": "+85561673146",
+      "name": "Chhaya Meas",
+      "email": "chhaya.meas_28@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/088697d3.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0077_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5733166,
+          "longitude": 104.9026346
+        },
+        "street": "Street 178, Building 9",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0077_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5197152,
+          "longitude": 104.9227372
+        },
+        "street": "Street 51, Building 40",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0077_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7184",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 325,
+      "lifetime_orders_count": 13,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-20T00:41:00Z"
+    }
+  },
+  {
+    "customer_id": "87500eaf-9df7-44b7-aba9-e6a9a565ea27",
+    "identity": {
+      "phone": "+85561956355",
+      "name": "Thyda Kim",
+      "email": "thyda.kim_75@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/87500eaf.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0078_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5495284,
+          "longitude": 104.9307816
+        },
+        "street": "Street 63, Building 67",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0078_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••3891",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0078_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 440,
+      "lifetime_orders_count": 22,
+      "active_coupons": [
+        {
+          "code": "DISCOUNT2USD",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-12T15:48:00Z"
+    }
+  },
+  {
+    "customer_id": "a1b2ce9f-e2e9-4563-b945-e17411a81272",
+    "identity": {
+      "phone": "+85570924631",
+      "name": "Emma Davis",
+      "email": "emma.davis_65@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/a1b2ce9f.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0079_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5812416,
+          "longitude": 104.8981505
+        },
+        "street": "Street 51, Building 140",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0079_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••7711",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0079_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 253,
+      "lifetime_orders_count": 11,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-16T22:17:00Z"
+    }
+  },
+  {
+    "customer_id": "75200a7f-7919-48d7-b644-1d6ddad3140e",
+    "identity": {
+      "phone": "+85512851005",
+      "name": "Bopha Sok",
+      "email": "bopha.sok_13@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/75200a7f.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0080_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5768186,
+          "longitude": 104.9206072
+        },
+        "street": "Street 2004, Building 96",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0080_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••6551",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 50,
+      "lifetime_orders_count": 2,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-07T00:57:00Z"
+    }
+  },
+  {
+    "customer_id": "9e0ec667-5caf-4213-8744-35798a14ec5f",
+    "identity": {
+      "phone": "+85517562673",
+      "name": "Dara Chea",
+      "email": "dara.chea_13@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/9e0ec667.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0081_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5895713,
+          "longitude": 104.940933
+        },
+        "street": "Street 310, Building 106",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0081_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••7237",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 190,
+      "lifetime_orders_count": 10,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-07T03:30:00Z"
+    }
+  },
+  {
+    "customer_id": "24526f84-5715-4def-a445-41d07fb10540",
+    "identity": {
+      "phone": "+85586559145",
+      "name": "Chenda Chhorn",
+      "email": "chenda.chhorn_37@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/24526f84.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0082_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5512399,
+          "longitude": 104.9222084
+        },
+        "street": "Street 271, Building 143",
+        "sangkat": "Boeung Keng Kang 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0082_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5817211,
+          "longitude": 104.8732372
+        },
+        "street": "Street 310, Building 32",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0082_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••4209",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 72,
+      "lifetime_orders_count": 4,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-14T20:25:00Z"
+    }
+  },
+  {
+    "customer_id": "7fe0e5ec-e75b-44fd-ac98-4f172a300b58",
+    "identity": {
+      "phone": "+85570744708",
+      "name": "Chenda Pich",
+      "email": "chenda.pich_24@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/7fe0e5ec.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0083_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3446668,
+          "longitude": 103.8681573
+        },
+        "street": "Street 310, Building 92",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0083_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 13.3532121,
+          "longitude": 103.8650936
+        },
+        "street": "Street 310, Building 87",
+        "sangkat": "Sala Kamreuk",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0083_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••9055",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 171,
+      "lifetime_orders_count": 9,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-17T14:43:00Z"
+    }
+  },
+  {
+    "customer_id": "91ca49b9-b52f-4c63-ac46-b9777e5afbc7",
+    "identity": {
+      "phone": "+85586990799",
+      "name": "Sokha Ouk",
+      "email": "sokha.ouk_62@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/91ca49b9.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0084_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5809901,
+          "longitude": 104.8684555
+        },
+        "street": "Street 51, Building 72",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0084_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••6349",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 880,
+      "lifetime_orders_count": 55,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-03T19:00:00Z"
+    }
+  },
+  {
+    "customer_id": "d891f44f-5193-49c8-9e95-855a5f35d11c",
+    "identity": {
+      "phone": "+85561363975",
+      "name": "Sokha Tep",
+      "email": "sokha.tep_91@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d891f44f.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0085_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.54478,
+          "longitude": 104.9313074
+        },
+        "street": "Street 2004, Building 107",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0085_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••3314",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0085_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1632,
+      "lifetime_orders_count": 68,
+      "active_coupons": [
+        {
+          "code": "WELCOME2026",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-05T07:00:00Z"
+    }
+  },
+  {
+    "customer_id": "ddd83445-9c18-43be-8404-8b97c8b4eb77",
+    "identity": {
+      "phone": "+85598680132",
+      "name": "Sothea Ung",
+      "email": "sothea.ung_22@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/ddd83445.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0086_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5805298,
+          "longitude": 104.8669977
+        },
+        "street": "Street 63, Building 17",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0086_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••3299",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0086_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 108,
+      "lifetime_orders_count": 6,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-26T15:44:00Z"
+    }
+  },
+  {
+    "customer_id": "6607fe5e-0f48-4a37-8c28-99645dec6f20",
+    "identity": {
+      "phone": "+85517104120",
+      "name": "Vireak Ouk",
+      "email": "vireak.ouk_15@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/6607fe5e.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0087_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5761666,
+          "longitude": 104.8719994
+        },
+        "street": "Street 271, Building 16",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0087_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5277799,
+          "longitude": 104.918983
+        },
+        "street": "Street 2004, Building 2",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0087_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••4784",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0087_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 400,
+      "lifetime_orders_count": 16,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-09T11:22:00Z"
+    }
+  },
+  {
+    "customer_id": "6747bbef-e8cc-4d3c-835c-d743d7a604b8",
+    "identity": {
+      "phone": "+85586284075",
+      "name": "Chloe Martin",
+      "email": "chloe.martin_51@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/6747bbef.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": false,
+      "dietary_flags": ["no_pork", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0088_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5406647,
+          "longitude": 104.9066452
+        },
+        "street": "Street 271, Building 2",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      },
+      {
+        "address_id": "addr_0088_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5757303,
+          "longitude": 104.9177197
+        },
+        "street": "Street 271, Building 106",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0088_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2021",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0088_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 2877,
+      "lifetime_orders_count": 137,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-20T06:20:00Z"
+    }
+  },
+  {
+    "customer_id": "cb686643-369f-47cb-a47e-2b50b526947d",
+    "identity": {
+      "phone": "+85570994719",
+      "name": "Thyda Chan",
+      "email": "thyda.chan_41@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/cb686643.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only", "spicy_level_zero"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0089_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5294525,
+          "longitude": 104.921412
+        },
+        "street": "Street 51, Building 41",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0089_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••9198",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0089_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 483,
+      "lifetime_orders_count": 21,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-09-21T04:20:00Z"
+    }
+  },
+  {
+    "customer_id": "5b8c4918-c84d-4cdd-b593-c336f3e5dd85",
+    "identity": {
+      "phone": "+85586112313",
+      "name": "Monita Khun",
+      "email": "monita.khun_11@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/5b8c4918.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0090_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.577589,
+          "longitude": 104.8681312
+        },
+        "street": "Street 271, Building 118",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0090_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5503876,
+          "longitude": 104.936768
+        },
+        "street": "Street 2004, Building 39",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0090_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••4195",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0090_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 782,
+      "lifetime_orders_count": 46,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-10-17T22:51:00Z"
+    }
+  },
+  {
+    "customer_id": "052e685a-8740-41dc-8160-fc386d080b7c",
+    "identity": {
+      "phone": "+85570873247",
+      "name": "Makara Chhorn",
+      "email": "makara.chhorn_55@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/052e685a.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0091_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.550926,
+          "longitude": 104.9216613
+        },
+        "street": "Street 271, Building 19",
+        "sangkat": "Boeung Keng Kang 2",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0091_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••2064",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0091_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 990,
+      "lifetime_orders_count": 45,
+      "active_coupons": [
+        {
+          "code": "NHAMFREESHIP",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-24T17:10:00Z"
+    }
+  },
+  {
+    "customer_id": "d30635ad-b037-44f6-b3dd-970a46b82706",
+    "identity": {
+      "phone": "+85586498042",
+      "name": "Vannak Keo",
+      "email": "vannak.keo_88@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d30635ad.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0092_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5507607,
+          "longitude": 104.9353506
+        },
+        "street": "Street 310, Building 144",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0092_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Canadia Bank",
+        "account_mask": "••••2210",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 3586,
+      "lifetime_orders_count": 163,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-05T13:50:00Z"
+    }
+  },
+  {
+    "customer_id": "4e6612af-ab34-4808-a921-7da635e91be7",
+    "identity": {
+      "phone": "+85586143716",
+      "name": "Neary Mao",
+      "email": "neary.mao_57@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4e6612af.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["spicy_level_zero", "no_pork"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0093_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5423419,
+          "longitude": 104.9046196
+        },
+        "street": "Street 271, Building 144",
+        "sangkat": "Toul Svay Prey 1",
+        "khan": "Boeung Keng Kang",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0093_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••7525",
+        "is_default": true
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1008,
+      "lifetime_orders_count": 63,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-21T21:41:00Z"
+    }
+  },
+  {
+    "customer_id": "fa883b1e-e3d0-4ef4-ac89-e638e3c2a179",
+    "identity": {
+      "phone": "+85570768916",
+      "name": "Sreypov Chea",
+      "email": "sreypov.chea_52@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/fa883b1e.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0094_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5771155,
+          "longitude": 104.8699535
+        },
+        "street": "Street 310, Building 62",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Call upon arrival"
+      },
+      {
+        "address_id": "addr_0094_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5886581,
+          "longitude": 104.9399876
+        },
+        "street": "Street 63, Building 72",
+        "sangkat": "Chroy Changvar",
+        "khan": "Chroy Changvar",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0094_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••7859",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0094_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 690,
+      "lifetime_orders_count": 46,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-12T12:00:00Z"
+    }
+  },
+  {
+    "customer_id": "30f6f8d2-3d04-4cee-8185-330ae12dcc25",
+    "identity": {
+      "phone": "+85586100078",
+      "name": "Sreypov Kim",
+      "email": "sreypov.kim_44@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/30f6f8d2.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0095_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5488362,
+          "longitude": 104.938979
+        },
+        "street": "Street 2004, Building 150",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      },
+      {
+        "address_id": "addr_0095_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5730157,
+          "longitude": 104.9231662
+        },
+        "street": "Street 310, Building 132",
+        "sangkat": "Phsar Thmey 1",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0095_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••4113",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0095_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1540,
+      "lifetime_orders_count": 70,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-07T15:33:00Z"
+    }
+  },
+  {
+    "customer_id": "e3238bc2-39b3-445b-91ba-a1f528609ce1",
+    "identity": {
+      "phone": "+85570553330",
+      "name": "Phalla Chea",
+      "email": "phalla.chea_35@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/e3238bc2.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0096_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5741469,
+          "longitude": 104.9161598
+        },
+        "street": "Street 51, Building 53",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0096_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••1350",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0096_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 220,
+      "lifetime_orders_count": 10,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-09-11T06:10:00Z"
+    }
+  },
+  {
+    "customer_id": "d16a62a3-4247-4097-ba90-4399c4ad7d74",
+    "identity": {
+      "phone": "+85586458315",
+      "name": "Monita Lim",
+      "email": "monita.lim_47@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/d16a62a3.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["halal_only"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0097_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5466598,
+          "longitude": 104.9345797
+        },
+        "street": "Street 310, Building 68",
+        "sangkat": "Tonle Bassac",
+        "khan": "Chamkarmon",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave with security guard"
+      },
+      {
+        "address_id": "addr_0097_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5799009,
+          "longitude": 104.8964578
+        },
+        "street": "Street 178, Building 6",
+        "sangkat": "Boeung Kak 1",
+        "khan": "Toul Kork",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0097_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Wing Bank",
+        "account_mask": "••••2521",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0097_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Bronze",
+      "points_balance": 437,
+      "lifetime_orders_count": 19,
+      "active_coupons": [
+        {
+          "code": "LUNCH15",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-10T17:37:00Z"
+    }
+  },
+  {
+    "customer_id": "4687121b-f83c-4158-b521-1f067bcfa6ab",
+    "identity": {
+      "phone": "+85517106351",
+      "name": "Chloe Martin",
+      "email": "chloe.martin_11@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/4687121b.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0098_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5694019,
+          "longitude": 104.9260048
+        },
+        "street": "Street 2004, Building 22",
+        "sangkat": "Wat Phnom",
+        "khan": "Daun Penh",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0098_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ABA Bank",
+        "account_mask": "••••1970",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0098_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 2208,
+      "lifetime_orders_count": 96,
+      "active_coupons": [
+        {
+          "code": "WEEKENDTREAT",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "huawei_app_gallery",
+      "last_active_at": "2026-10-07T16:22:00Z"
+    }
+  },
+  {
+    "customer_id": "d672cf25-28db-4df7-a3f9-e6fdfc6799e8",
+    "identity": {
+      "phone": "+85586384230",
+      "name": "Neary Khun",
+      "email": "neary.khun_83@example.com",
+      "is_phone_verified": false,
+      "avatar_url": "https://cdn.nham24.com/avatars/d672cf25.webp"
+    },
+    "preferences": {
+      "language": "km",
+      "currency": "KHR",
+      "push_notifications_enabled": false,
+      "dietary_flags": []
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0099_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 13.3510603,
+          "longitude": 103.8583235
+        },
+        "street": "Street 51, Building 121",
+        "sangkat": "Svay Dangkum",
+        "khan": "Siem Reap Municipality",
+        "city": "Siem Reap",
+        "dropoff_notes": "Deliver to door floor 3"
+      },
+      {
+        "address_id": "addr_0099_2",
+        "label": "Office",
+        "is_default": false,
+        "coordinates": {
+          "latitude": 11.5795022,
+          "longitude": 104.8707792
+        },
+        "street": "Street 51, Building 105",
+        "sangkat": "Phnom Penh Thmey",
+        "khan": "Sen Sok",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Leave at gate"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0099_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "Sathapana Bank",
+        "account_mask": "••••6943",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0099_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Gold",
+      "points_balance": 3060,
+      "lifetime_orders_count": 180,
+      "active_coupons": [
+        {
+          "code": "DISCOUNT2USD",
+          "discount_type": "amount_discount",
+          "valid_until": "2026-12-31T23:59:59Z"
+        }
+      ]
+    },
+    "metadata": {
+      "registered_channel": "android_app",
+      "last_active_at": "2026-10-16T18:22:00Z"
+    }
+  },
+  {
+    "customer_id": "3d41dce5-c83e-4642-8373-a096f6535dec",
+    "identity": {
+      "phone": "+85596329052",
+      "name": "Thyda Ung",
+      "email": "thyda.ung_90@example.com",
+      "is_phone_verified": true,
+      "avatar_url": "https://cdn.nham24.com/avatars/3d41dce5.webp"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "KHR",
+      "push_notifications_enabled": true,
+      "dietary_flags": ["no_pork", "vegetarian"]
+    },
+    "addresses": [
+      {
+        "address_id": "addr_0100_1",
+        "label": "Home",
+        "is_default": true,
+        "coordinates": {
+          "latitude": 11.5236782,
+          "longitude": 104.9204643
+        },
+        "street": "Street 63, Building 118",
+        "sangkat": "Chak Angre Kraom",
+        "khan": "Mean Chey",
+        "city": "Phnom Penh",
+        "dropoff_notes": "Deliver to door floor 3"
+      }
+    ],
+    "payment_profiles": [
+      {
+        "method_id": "pay_0100_1",
+        "type": "KHQR_DIRECT",
+        "bank_name": "ACLEDA Bank",
+        "account_mask": "••••1270",
+        "is_default": true
+      },
+      {
+        "method_id": "pay_0100_2",
+        "type": "CASH_ON_DELIVERY",
+        "accepted_currencies": ["USD", "KHR"],
+        "is_default": false
+      }
+    ],
+    "loyalty": {
+      "tier": "Silver",
+      "points_balance": 1656,
+      "lifetime_orders_count": 92,
+      "active_coupons": []
+    },
+    "metadata": {
+      "registered_channel": "ios_app",
+      "last_active_at": "2026-09-24T04:53:00Z"
+    }
+  }
+]
